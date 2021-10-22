@@ -57,9 +57,9 @@ private Button btn_mora;
                         tv_winner.setText("勝利者\n"+ed_name.getText().toString());
                         tv_text.setText("恭喜你獲勝了！！！");
                     }
-                    else if((btn_scissor.isChecked() && computer == 2)||
-                            (btn_stone.isChecked() && computer == 0)||
-                            (btn_paper.isChecked() && computer == 1)){
+                    else if((btn_scissor.isChecked() && computer == 1)||
+                            (btn_stone.isChecked() && computer == 2)||
+                            (btn_paper.isChecked() && computer == 0)){
                         tv_winner.setText("勝利者\n電腦");
                         tv_text.setText("可惡電腦獲勝了！");
                     }
